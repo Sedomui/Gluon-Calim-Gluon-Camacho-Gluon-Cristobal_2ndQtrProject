@@ -8,9 +8,11 @@ public class Main {
         System.out.println("menuWindowTest");
         window = new Menu();
     }
+
     public static void gameWindow() {
         window = new Game();
     }
+    
     public static void settingsWindow() {
         window = new Settings();
     }
